@@ -18,10 +18,9 @@ li {
 }
 
 .body {
-    color: pink;
+    color: black;
     font-size: medium;
     font-family: Arial, sans-serif;
-    background-image: "images/Nado.jpeg";
 }
 
 .bold {
