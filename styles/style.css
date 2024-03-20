@@ -1,5 +1,7 @@
 p {
     color: rgb(201, 27, 27);
+    border: black solid 5px;
+    padding: 20px;
 }
 
 li {
@@ -8,4 +10,15 @@ li {
 
 #about-me {
     font-family: 'Courier New', Courier, monospace;
+}
+
+#things-i-like {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.body {
+    color: darkgreen;
+    font-size: medium;
+    font-family: Arial, sans-serif;
 }
