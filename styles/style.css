@@ -1,11 +1,11 @@
 p {
-    color: rgb(201, 27, 27);
-    border: black solid 5px;
+    color: yellow;
+    border: orange solid 5px;
     padding: 20px;
 }
 
 li {
-    color: rgb(42, 110, 182);
+    color: rgb(106, 255, 0);
 }
 
 #about-me {
@@ -18,7 +18,14 @@ li {
 }
 
 .body {
-    color: darkgreen;
+    color: pink;
     font-size: medium;
     font-family: Arial, sans-serif;
+}
+
+.bold {
+    font-style: oblique;
+    font-size: xx-large;
+    border: purple solid 8px;
+    padding: 10px;
 }
