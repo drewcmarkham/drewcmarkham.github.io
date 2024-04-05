@@ -1,0 +1,93 @@
+/* Task 1: Hover Highlight Card */
+.hover-highlight-card:hover {
+    background-color: #00aaff;
+    box-shadow: 10px 5px 5px black;
+    transition: 0.5s;
+}
+
+.hover-highlight-card {
+    padding: 20px;
+    background-color: lightblue;
+    transition: 0.5s
+}
+
+/* Task 2: Animated Navigation Menu */
+.animated-nav-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.animated-nav-menu a {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 8px;
+    color: #00aaff;
+    background-color: white;
+    transition: 0.5s
+
+}
+
+.animated-nav-menu a:hover{
+    background-color: #00aaff;
+    color: white;
+    transition: 0.5s;
+
+}
+/* Task 3: Button Press Animation */
+.button-press-animation button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+}
+
+.button-press-animation button:active {
+    transform: translateY(5px);
+    background-color: #3498db;
+}
+
+/* Task 4: Simple Loading Spinner */
+.simple-loading-spinner .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* Task 5: Fading Gallery */
+.fading-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fading-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px black solid;
+    opacity: 0.77;
+    transition: 0.5s
+
+}
+
+.fading-gallery img:hover {
+    transform: translateY(-20px);
+    box-shadow: 5px 5px 10px black;
+    opacity: 1;
+    width: 125px;
+    height: 125px;
+    transition: 0.5s
+}
