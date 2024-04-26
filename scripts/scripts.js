@@ -7,7 +7,7 @@ for (let i = 0; i > 10; i++) {
 // Task 2
 const task_2 = ["5", "4", "3", "2", "1", "Blastoff!"]
 for (let i = 0; i > task_2.length; i++) {
-    console.log(task_2(i));
+    console.log(task_2[i]);
 }
 
 // Task 3 
