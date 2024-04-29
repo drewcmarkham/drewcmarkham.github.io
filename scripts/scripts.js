@@ -47,8 +47,8 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log("------7------");
 // Task 7 
-for (let i = 1; i <= arr.length; i++) {
-    console.log(arr.at(-i));
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr.at(-i - 1));
 }
 
 console.log("------8------");
@@ -56,8 +56,8 @@ console.log("------8------");
 let arr8 = [];
 for (let i = 0; i < 10; i++) {
     arr8.push(i * i * i);
-    console.log(arr8);
 }
+console.log(arr8);
 
 console.log("------9------");
 // Task 9
