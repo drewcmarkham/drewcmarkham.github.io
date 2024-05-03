@@ -76,3 +76,4 @@ while (arr.length > 0) {
     arr_reverse.push(num);
     console.log(arr_reverse);
 }
+
