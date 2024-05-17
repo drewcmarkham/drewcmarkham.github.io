@@ -1,0 +1,31 @@
+@keyframes intro {
+    0% {transform: translate(0,-100px);}
+    to {transform: translate(0, 0);}
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.title {
+    animation: 1s ease-out 1 intro;
+    z-index: 0;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/* *:not(#nav-bar) {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    z-index: 0;
+} */
+*:not(nav) {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    z-index: 0;
+}

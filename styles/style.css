@@ -1,35 +1,98 @@
-h1 {
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#nav-bar {
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    opacity: 1;
+    z-index: 1; 
+}
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    background-color: black;
+    margin-right: 20px;
+
+}
+#nav-bar ul li {
+    float: left;
+    display: block;
+    padding: 8px;
+}
+#nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+#nav-bar ul li a:not(.selected):hover {
+    background-color: white;
+    color: purple;
+    transition: 0.5s;
+}
+
+.title {
+    text-align: center;
+    border: 5px white solid;
+    padding: 20px;
+    box-shadow: 10px 5px 5px purple;
+    margin: 5px;
+    color: white;
+}
+
+.border {
+    text-align: center;
+    color: white;
+    border: white solid 5px;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.selected {
+    background-color: white;
+    color: purple !important;
+    padding: 10px 20px;
+    border-radius: 50px;
+    pointer-events: none;
+}
+
+img#about {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-left:10px;
+    margin-right: 10px;
+    border: white solid 5px;
+    border-radius: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer p {
+    background-color: grey;
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
     text-align: center;
 }
 
-p {
-    color: darkblue;
-    border: black solid 5px;
-    padding: 20px;
-}
-
-li {
+a.integrated {
+    text-decoration: none;
     color: blueviolet;
 }
 
-#about-me {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#things-i-like {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-}
-
-.body {
-    color: black;
-    font-size: medium;
-    font-family: Arial, sans-serif;
-}
-
-.bold {
-    font-style: oblique;
-    font-size: xx-large;
-    border: purple solid 8px;
-    padding: 10px;
+p a.integrated {
+    background-color: grey;
 }
