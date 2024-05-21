@@ -96,3 +96,16 @@ a.integrated {
 p a.integrated {
     background-color: grey;
 }
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.img-gallery img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
