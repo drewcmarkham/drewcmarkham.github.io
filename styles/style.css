@@ -99,8 +99,7 @@ p a.integrated {
 
 .img-gallery {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     overflow: scroll;
 
 }

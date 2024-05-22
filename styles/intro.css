@@ -23,9 +23,3 @@
     animation-iteration-count: 1;
     z-index: 0;
 } */
-*:not(nav) {
-    animation-name: fade-in;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    z-index: 0;
-}
