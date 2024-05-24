@@ -80,12 +80,20 @@ img#about {
     justify-content: center;
     gap: 10px;
 }
+
 .footer p {
     background-color: grey;
     padding: 20px;
     color: white;
     border-radius: 50px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.footer p:hover{
+    background-color: lightgray;
+    padding: 30px;
+    transition: 0.5s;
 }
 
 a.integrated {
@@ -119,4 +127,25 @@ p a.integrated {
     border: 5px black solid;
     box-shadow: 10px 10px 5px white;
     transition: 0.5s;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons ul {
+    display: flex;
+    gap: 90px;
+}
+#buttons li{
+    border: 5px white solid;
+    border-radius: 50px;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+#buttons li a{
+    text-decoration: none;
+    color: blueviolet;
 }
